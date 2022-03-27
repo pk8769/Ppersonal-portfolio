@@ -1,0 +1,26 @@
+
+
+
+/* ----------------------------Responsive media query :start----------------------- */
+
+@media (max-width:991px){
+    .navbar .menu{
+        position:fixed;
+        height:100vh;
+        width: 100%;
+        left: 0;
+        top: 0;
+        background: red;
+        text-align: center;
+        padding-top: 80px;
+    }
+    .navbar .menu li{
+        display: block;
+
+    }
+    .navbar .menu li a{
+        display: inliblock;
+        margin: 20px 0;
+        font-size: 20px;
+    }
+}
